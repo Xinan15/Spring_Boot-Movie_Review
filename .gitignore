@@ -36,3 +36,5 @@ build/
 
 ### Warning but not fixed yet ###
 
+### ENV Files ###
+.env
