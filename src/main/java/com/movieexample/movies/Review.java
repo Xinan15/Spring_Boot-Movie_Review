@@ -12,11 +12,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Review {
-    @Id
     private ObjectId id;
-    private String imdbId;
-    private String title;
-    private String releaseDate;
-    private String username;
-
+    private String body;
 }
